@@ -1,0 +1,21 @@
+{
+    "name": "ingeniouslycrazy/dockerized-php-website",
+    "description": "yadda",
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "Davidschneiderinfo\\PhpBoilerplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David",
+            "email": "kontakt@davidschneider.info"
+        }
+    ],
+    "require": {
+        "symfony/console": "^6.4"
+    },
+    "bin": ["bin/console"]
+}
